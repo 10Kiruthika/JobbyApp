@@ -1,0 +1,138 @@
+.specific_bottom_page {
+  background-color: #000000;
+  padding: 40px;
+}
+.specific_bottom {
+  background-color: #202020;
+  border-radius: 20px;
+  padding: 50px;
+  color: white;
+}
+.logo_img {
+  height: 80px;
+}
+.logo_Cont {
+  display: flex;
+  align-items: center;
+}
+.title_cont {
+  padding-left: 20px;
+}
+.title_heading {
+  margin: 0px;
+  font-size: 20px;
+}
+.star_img_cont {
+  display: flex;
+  align-items: center;
+}
+.star_img {
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.location_Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location_Cont {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.location_icon {
+  display: flex;
+  align-items: center;
+}
+.location_para {
+  padding-right: 30px;
+}
+.line {
+  border: 1px solid #475569;
+}
+.desciption_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.href_style {
+  text-decoration: none;
+  color: #6366f1;
+  font-size: 20px;
+}
+.paraDasc {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.unorder_skill_cont {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.life_container {
+  display: flex;
+  align-items: center;
+}
+.life_para {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-right: 20px;
+}
+
+.life_img {
+  height: 250px;
+}
+.similar_heading {
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.similarJob_unorder_list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.fail_view_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.job_retry_button {
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+}
+@media (max-width: 576px) {
+  .specific_bottom_page {
+    padding: 30px;
+  }
+  .specific_bottom {
+    padding: 30px;
+  }
+  .paraDasc {
+    font-weight: normal;
+  }
+  .life_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .life_para {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .life_img {
+    height: 200px;
+  }
+  .similarJob_unorder_list {
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+}

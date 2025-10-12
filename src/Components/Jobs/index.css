@@ -1,0 +1,16 @@
+.jobs_container {
+  background-color: #000000;
+  display: flex;
+}
+@media (max-width: 576px) {
+  .jobs_container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .jobs_container {
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+  }
+}

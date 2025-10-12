@@ -1,0 +1,98 @@
+.filter_page {
+  width: 20%;
+  padding: 20px;
+  margin-left: 40px;
+}
+.profile_cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  height: 200px;
+  width: 230px;
+}
+.profile_head {
+  font-size: 20px;
+  color: #6366f1;
+}
+.profile_para {
+  font-size: 14px;
+  color: #475569;
+}
+.line {
+  border: 1px solid #7e858e;
+  margin-top: 20px;
+  width: 230px;
+  margin-left: 0px;
+  padding-right: 0px;
+}
+.type_heading {
+  color: white;
+  font-size: 16px;
+  font-weight: normal;
+}
+.type_unorder_list {
+  padding: 0px;
+  list-style-type: none;
+}
+.employ_type_list_cont {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.type_label {
+  padding-left: 10px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+.checkbox_input {
+  color: #4f46e5;
+  background-color: #4f46e5;
+}
+.profile_retry_container {
+  padding: 20px;
+  height: 200px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_retry_button {
+  border: none;
+  background-color: #4f46e5;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+}
+.loader-container {
+  padding: 20px;
+  height: 200px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .filter_page {
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+  }
+  .profile_cont {
+    width: 100%;
+    height: 200px;
+  }
+  .profile_para {
+    margin: 0px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px){
+  .filter_page {
+    width: 30%;
+    min-width: 250px;
+  }
+}
